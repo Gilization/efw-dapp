@@ -1,16 +1,52 @@
-# React + Vite
+# edible-food-waste-credit-dapp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Decentralized application for the Edible Food Waste Credit system.
 
-Currently, two official plugins are available:
+# Edible Food Waste Credit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the decentralized application implementation developed for the Edible Food Waste Credit project.
 
-## React Compiler
+**"Edible Food Waste Credit"**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Description
 
-## Expanding the ESLint configuration
+This project demonstrates a blockchain-inspired decentralized application workflow for edible food waste management. The dApp is designed to support transparent claim submission, validation, token issuance, token trading, certificate generation, and withdrawal processes across multiple stakeholders, including enterprises, food banks, government, validators, and token makers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The current version is deployed as a frontend prototype and is intended to make the platform easily accessible for stakeholder demonstration and interface evaluation. At this stage, the application uses local browser storage for state persistence and does not yet rely on a backend database or real-time synchronization.
+
+## Main Features
+
+- Multi-role login system
+- Enterprise dashboard
+- Non-enterprise dashboard
+- Claim submission and approval workflow
+- Token minting workflow
+- Deposit and withdrawal interface
+- Trade interface
+- NFT certificate interface
+- Government, validator, token maker, and food bank panels
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- LocalStorage for client-side persistence
+
+## Project Purpose
+
+This dApp was developed to support the Edible Food Waste Credit research and provide an accessible prototype for stakeholder review. The current deployment focuses on usability and demonstration rather than production-grade backend integration.
+
+## Citation
+
+If you use this repository, please cite:
+
+Gilbert Christian Caesario Siburian. (2026). edible-food-waste-credit-dapp [Source code]. GitHub.
+
+## License
+
+This repository is licensed under the MIT License. See the LICENSE file for details.
+
+## Notes
+
+This is an early prototype version. Features related to database integration, real-time updates, and advanced production deployment may be added in future revisions.
