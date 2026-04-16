@@ -41,7 +41,7 @@ This dApp was developed to support the Edible Food Waste Credit research and pro
 
 If you use this repository, please cite:
 
-Gilbert Christian Caesario Siburian. (2026). edible-food-waste-credit-dapp [Source code]. GitHub.
+Author of "Bridging governance gaps in edible food waste rescue: a blockchain-enabled tax credit incentive framework". (2026). edible-food-waste-credit-dapp [Source code]. GitHub.
 
 ## License
 
